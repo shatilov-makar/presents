@@ -1,5 +1,5 @@
 let slider = document.querySelector('.slide');
-slider.style.transform = 'translateY(300px)';
+slider.style.transform = 'translateY(250px)';
 let elemInBin = document.querySelector('.item-in-bin');
 const del = 1600;
 let gameOver = false; 
@@ -105,7 +105,7 @@ function setNewElement(){
 
 
   function updateSlider() {
-    slider.style.transform = 'translateY(300px)';
+    slider.style.transform = 'translateY(250px)';
     slider.style.transition = 'transform 1.5s';
     slider.style.transitionTimingFunction =  'linear';
   }

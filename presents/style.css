@@ -3,6 +3,7 @@
 
 .slide {
     position: relative;
+    bottom:80px;
     width:80px;
     height:80px;
     margin-left: 47%;
@@ -16,7 +17,7 @@
 .bin-and-item {
     position: relative;
     display: inline-block;
-    top:800px;
+    top:650px;
     left:250px;
 }
 
@@ -41,7 +42,6 @@
 }
 
 .tree-and-items {
-    right: 10%;
     margin-right: 10px;
     position: relative;
     display: inline-block;
@@ -52,14 +52,14 @@
 .tree {
     position: absolute;
     height: 400px;
-    margin-top: 300px;
+    margin-top: 150px;
     z-index: 0;
     visibility:visible;
 }
 
 .caramel {
     position: absolute;
-    top: 520px;
+    top: 370px;
     left: 150px;
     transform: rotate(45deg);
     width:60px;
@@ -67,14 +67,14 @@
 
 .green_ball {
     position: absolute;
-    top: 500px;
+    top: 350px;
     left: 250px;
     width:60px;
 }
 
 .red_ball {
     position: absolute;
-    top: 420px;
+    top: 270px;
     left: 100px;
     width:80px;
 }
@@ -84,20 +84,20 @@
 .present {
     position: absolute;
     width:80px;
-    top: 630px;
+    top: 480px;
     left: 76px;
 }
 
 .star {
     position: absolute;
-    top: 270px;
+    top: 130px;
     left: 140px;
     width:80px;
 }
 
 .top_star {
     position: absolute;
-    top: 500px;
+    top: 350px;
     left: 90px;
     width:60px;
 }
@@ -105,24 +105,23 @@
 
 .lose {
     position: absolute;
-    top: 340px;
+    top: 190px;
     left: 200px;
     width:60px;
 }
 
 .base {
     position: relative;
-    bottom: -600px;
+    bottom: -450px;
     background: url('images\\snow.jpg') no-repeat;
     background-size: 100%;
-    min-height: 25vh;
+    min-height: 30vh;
     z-index: -1;
 }
 
 
 
 .congr{
-    margin-top: 20px;
     visibility: hidden;
     text-align: center;
     font-size: 30px;
@@ -132,7 +131,6 @@
 }
 
 .condolence {
-    margin-top: 20px;
     text-align: center;
     visibility: hidden;
     font-size: 30px;
